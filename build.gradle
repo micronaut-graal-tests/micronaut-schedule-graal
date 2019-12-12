@@ -24,7 +24,7 @@ dependencies {
     annotationProcessor "io.micronaut:micronaut-inject-java"
     annotationProcessor "io.micronaut:micronaut-validation"
 
-    compileOnly "com.oracle.substratevm:svm"
+    compileOnly "org.graalvm.nativeimage:svm"
  
     implementation platform("io.micronaut:micronaut-bom:$micronautVersion")
     implementation "io.micronaut:micronaut-http-client"
