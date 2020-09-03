@@ -1,5 +1,0 @@
-profile: service
-defaultPackage: micronaut.schedule.graal
----
-testFramework: junit
-sourceLanguage: java
