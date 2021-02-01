@@ -40,4 +40,5 @@ java {
 
 nativeImage {
     imageName('schedule')
+    args = ["-H:+StaticExecutableWithDynamicLibC"]
 }
