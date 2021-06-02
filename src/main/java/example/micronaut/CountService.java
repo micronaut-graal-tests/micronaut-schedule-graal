@@ -1,8 +1,7 @@
 package example.micronaut;
 
 import io.micronaut.scheduling.annotation.Scheduled;
-
-import javax.inject.Singleton;
+import jakarta.inject.Singleton;
 
 @Singleton
 public class CountService {
