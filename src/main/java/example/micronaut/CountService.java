@@ -10,6 +10,7 @@ public class CountService {
 
     @Scheduled(fixedDelay = "1s", initialDelay = "1s")
     public void runJob() {
+        System.out.println("-------> total = " + total);
         if (total <= 2) {
             total++;
         }
