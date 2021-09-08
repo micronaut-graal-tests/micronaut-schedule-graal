@@ -1,9 +1,9 @@
 package example.micronaut;
 
+import io.micronaut.context.annotation.Context;
 import io.micronaut.scheduling.annotation.Scheduled;
-import jakarta.inject.Singleton;
 
-@Singleton
+@Context
 public class CountService {
 
     private int total = 0;
