@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./gradlew nativeImage
-cp build/native-image/schedule .
+./gradlew nativeCompile
+cp build/native/nativeCompile/schedule .
